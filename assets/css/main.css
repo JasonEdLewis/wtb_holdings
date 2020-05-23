@@ -41,9 +41,8 @@
 	 padding-top: 0%;
 	 font-family: inherit;
  }
- .current-chev{
-	float:right;
-	margin-top: 3%;
+ .project-chev {
+   position: fixed;
 
  }
  .work-nav li a:link{
