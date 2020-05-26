@@ -59,6 +59,12 @@
 float: left;
 
 }
+.our-mission-title{
+	color: rgb(249, 240, 229);
+	font-style: italic;
+	font-weight: bold;
+	font-size: 4vh;
+}
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,

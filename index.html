@@ -31,6 +31,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 		crossorigin="anonymous"></script>
+
 </head>
 
 <body class="is-preload">
@@ -50,8 +51,7 @@
 				<div class="inner">
 					<span class="wtb-title">WTB HOLDINGS
 						LLC</span>
-					<p>tearing down walls while building bridges<br>to Bringing Home ownership and value propositions to
-						our clients and investors alike.</p>
+					<p style="font-style: italic;">'Taking the Oppertunity to Create Opportunities' </p>
 				</div>
 			</div>
 			<nav>
@@ -59,7 +59,7 @@
 					<!-- <li><a href="#intro">Intro</a></li> -->
 					<li><a href="#about">About</a></li>
 					<li><a href="#projects">Projects</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li><a href="/contact.php">Contact</a></li>
 					<!-- <li><a href="#elements">Elements</a></li> -->
 				</ul>
 			</nav>
@@ -161,8 +161,15 @@
 
 			<!-- About -->
 			<article id="about">
-				<h2 class="major">About</h2>
+				<span class="our-mission-title wtb-title">Our Mission:</span>
+				<blockquote>
+					At WTB Holdings LLC we look to tear down walls while building bridges<br>to Bringing Home ownership
+					and
+					value
+					propositions to
+					our clients and investors alike.</blockquote>
 				<span class="image main"><img src="images/tyler-nix-Pw5uvsFcGF4-unsplash.jpg" alt="" /></span>
+
 				<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at
 					eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula
 					lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada
@@ -173,7 +180,8 @@
 			<!-- Contact -->
 			<article id="contact">
 				<h2 class="major">Contact</h2>
-				<form id="contact" onsubmit="handleSubmit(); resetForm()">
+				<form id="contact" onsubmit="handleSubmit(); resetForm()" method="post"
+					action="MAILTO:info@wtbholdings.com">
 					<div class="fields">
 						<div class="field half">
 							<label for="name">Name</label>
