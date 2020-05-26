@@ -64,6 +64,8 @@ float: left;
 	font-style: italic;
 	font-weight: bold;
 	font-size: 4vh;
+	font-family: 'Quattrocento';
+	letter-spacing: .1vw; 
 }
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
