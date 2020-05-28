@@ -6,6 +6,17 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.looking-to-sell-button {
+	margin-right: 75vw;
+	padding:.75vw;
+	border-radius: .5vw;
+	text-decoration: none;
+	color: rgb(249, 240, 229);
+	border: #faf7f7ac solid .1vw;
+
+}
+
+
  .wtb-title{
 	 font-family: 'Quattrocento';
 	 font-style: italic;
@@ -59,6 +70,19 @@
 float: left;
 
 }
+.our-mission-title{
+	color: rgb(249, 240, 229);
+	font-style: italic;
+	font-weight: bold;
+	font-size: 4vh;
+	font-family: 'Quattrocento';
+	letter-spacing: .1vw; 
+}
+#owed #asking-price{
+	/* color:black; */
+font-weight: bolder;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
