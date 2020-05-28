@@ -40,7 +40,10 @@
 	<div id="wrapper">
 
 		<!-- Header -->
-		<span class="looking-to-sell-button"><a href="#sell-your-home">Sell Your Home</a></span>
+		<span class="looking-to-sell-button" onclick="toggleSell()" style=`${sellButtonStatus()}`
+			href="#sell-your-home"><a href="#sell-your-home">Sell
+				Your
+				Home</a></span>
 		<header id="header">
 			<div class="logo">
 				<span>
@@ -183,8 +186,7 @@
 			<!-- Contact -->
 			<article id="contact">
 				<h2 class="major">Contact</h2>
-				<form id="contact" onsubmit="handleSubmit(); resetForm()" method="post"
-					action="MAILTO:info@wtbholdings.com">
+				<form action="POST" data-netlify="true">
 					<div class="fields">
 						<div class="field half">
 							<label for="name">Name</label>
@@ -234,8 +236,7 @@
 
 			<article id="sell-your-home">
 				<h2 class="major">Tell Us...</h2>
-				<form id="contact" onsubmit="handleSubmit(); resetForm()" method="post"
-					action="MAILTO:info@wtbholdings.com">
+				<form action="POST" data-netlify="true">
 					<div class="fields">
 						<div class="field">
 							<label for="name">Full Name</label>
@@ -260,6 +261,11 @@
 							<label for="City">City</label>
 							<input type="text" name="city" id="city" />
 						</div>
+						<div class="field half">
+							<label for="county">County</label>
+							<input type="text" name="county" id="county" />
+						</div>
+						<div class="field half"></div>
 						<div class="field half"></div>
 
 						<div class="field half">
@@ -320,14 +326,6 @@
 							</select>
 						</div>
 						<div class="field half"></div>
-						<div class="field half">
-							<label for="lot-block">Lot</label><input type="text" name="lot-block" id="lot-block"
-								placeholder="A.23" />
-						</div>
-						<div class="field half">
-							<label for="block-lot">Block</label><input type="text" name="block-lot" id="block-lot"
-								placeholder="B-24" />
-						</div>
 
 						<div class="field half">
 							<label for="owed">Amount Owed:</label><input type="text" name="owed" id="owed"
@@ -349,6 +347,9 @@
 							<label for="message">Reason for sale</label>
 							<textarea name="message" id="message" rows="4"></textarea>
 						</div>
+					</div>
+					<div class="feild">
+						<div data-netlify-recaptcha="true"></div>
 					</div>
 					<ul class="actions">
 						<li><input type="submit" class="primary" /></li>
