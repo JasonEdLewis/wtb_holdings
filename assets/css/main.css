@@ -77,6 +77,11 @@ float: left;
 	font-family: 'Quattrocento';
 	letter-spacing: .1vw; 
 }
+#owed #asking-price{
+	/* color:black; */
+font-weight: bolder;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
