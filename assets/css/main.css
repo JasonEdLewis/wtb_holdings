@@ -1346,6 +1346,7 @@ input, select, textarea {
 			position: relative;
 			margin-top: 3.5rem;
 		}
+				/* The vertical lines */
 
 			#header > *:before {
 				content: '';
@@ -1355,7 +1356,7 @@ input, select, textarea {
 				left: calc(50% - 1px);
 				width: 1px;
 				height: calc(3.5rem + 1px);
-				background: #ffffff;
+				background:#ffffff;
 			}
 
 		#header > :first-child {
@@ -1365,6 +1366,7 @@ input, select, textarea {
 			#header > :first-child:before {
 				display: none;
 			}
+/* Comment out to put the logo without the circle */
 
 		#header .logo {
 			width: 5.5rem;
@@ -1377,7 +1379,7 @@ input, select, textarea {
 			#header .logo .icon:before {
 				font-size: 2rem;
 			}
-
+			/* Horizontal lines  */
 		#header .content {
 			border-style: solid;
 			border-color: #ffffff;
@@ -1410,6 +1412,8 @@ input, select, textarea {
 				font-size: 0.8rem;
 				line-height: 2;
 			}
+			
+/* Framing for the around the nav items  */
 
 		#header nav ul {
 			display: -moz-flex;
@@ -1422,6 +1426,8 @@ input, select, textarea {
 			border: solid 1px #ffffff;
 			border-radius: 4px;
 		}
+
+/* Framing for the middle of the nav items  */
 
 			#header nav ul li {
 				padding-left: 0;
