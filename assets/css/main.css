@@ -1368,14 +1368,19 @@ input, select, textarea {
 			}
 /* Comment out to put the logo without the circle */
 
-		#header .logo {
+		/* #header .logo {
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+		} */
+		#logo{
+			width: 10vw;
 		}
-
+		/* #logo-text{
+			width: 15vw;
+		} */
 			#header .logo .icon:before {
 				font-size: 2rem;
 			}
@@ -1412,7 +1417,7 @@ input, select, textarea {
 				font-size: 0.8rem;
 				line-height: 2;
 			}
-			
+
 /* Framing for the around the nav items  */
 
 		#header nav ul {
