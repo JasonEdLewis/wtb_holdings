@@ -23,7 +23,7 @@
 	 font-size: 3vw;
 	 font-weight: 500;
 	 letter-spacing: .2vw; 
-	 color: rgb(249, 228, 205);
+	 color: rgb(154, 154, 154) 
  }
  .fas{
 	color: rgb(250, 232, 211);
@@ -204,6 +204,9 @@ input, select, textarea {
 			html {
 				font-size: 11pt;
 			}
+			#logo{
+				width: 50vw;
+				}
 
 		}
 
@@ -212,7 +215,9 @@ input, select, textarea {
 			html {
 				font-size: 10pt;
 			}
-
+			#logo{
+			width: 50vw;
+			}
 		}
 
 	body, input, select, textarea {
@@ -425,7 +430,7 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 480px) {
-
+			
 			form > .fields {
 				width: calc(100% + 3rem);
 				margin: -1.5rem 0 2rem -1.5rem;
@@ -1357,6 +1362,7 @@ input, select, textarea {
 				width: 1px;
 				height: calc(3.5rem + 1px);
 				background:#ffffff;
+				
 			}
 
 		#header > :first-child {
@@ -1376,11 +1382,15 @@ input, select, textarea {
 			border-radius: 100%;
 		} */
 		#logo{
-			width: 10vw;
+			width: 20vw;
+			margin-bottom: -6.75vh;
 		}
-		/* #logo-text{
+		#logo-text{
 			width: 15vw;
-		} */
+			margin-top: -10vh;
+			padding:-50px;
+			/* border: 5px red solid; */
+		}
 			#header .logo .icon:before {
 				font-size: 2rem;
 			}
