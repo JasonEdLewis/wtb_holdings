@@ -159,13 +159,13 @@ input, select, textarea {
 		html, body {
 			min-width: 320px;
 		}
-		/* .logo #logo{
+		.logo #logo{
 			width: 15vw;
 			margin-left: -.5vw;
 			padding-bottom: 2vh;
 			border: 1px solid red;
 			}
-		 */
+		
 
 	}
 
@@ -203,14 +203,23 @@ input, select, textarea {
 			html {
 				font-size: 12pt;
 			}
-			.logo #logo{
-				margin-right: -4.5vw ;
-				margin-top:-10vh;
+			.logo {
+				margin-right: -8.5vw ;
+				margin-bottom: 1vh;
 				/* border: 1px solid red; */
 
 				}
 				
 
+
+		}
+		@media screen and (min-width: 991px) {
+			.logo {
+				margin-right: -8.5vw ;
+				margin-bottom: 3vh;
+				border: 1px solid red;
+
+				}
 
 		}
 /* This is for small screens */
@@ -219,10 +228,9 @@ input, select, textarea {
 			html {
 				font-size: 11pt;
 			}
-			.logo #logo{
-				margin-right: -5vw;
-				margin-top: 2vh;
-			
+			.logo {
+				margin-right: 0vw;
+				margin-bottom: 1vh;
 				/* border: 1px solid red; */
 				}
 				.looking-to-sell-button {
@@ -243,11 +251,11 @@ input, select, textarea {
 			html {
 				font-size: 10pt;
 			}
-			.logo #logo{
+			.logo {
 				width: 15vw;
 				margin-left: -.5vw;
 				padding-bottom: 2vh;
-				/* border: 1px solid red; */
+				border: 1px solid red;
 				}
 			
 		}
@@ -358,10 +366,10 @@ input, select, textarea {
 		position: relative;
 		top: 0.5rem;
 	}
-	.logo #logo{
+	.logo {
 		width: 20vw;
-		margin-left: -5vw;
-		padding-bottom: 0vh;
+		margin-left: -7.5vw;
+		margin-bottom: vh;
 		/* border: 1px solid red; */
 		}
 
@@ -1421,7 +1429,10 @@ input, select, textarea {
 		} */
 		.logo #logo{
 			width: 20vw;
-			margin-bottom: -6.75vh;
+			margin-bottom: -8vh;
+			margin-left: -1.5vw;
+			/* border: 1px red solid; */
+
 		}
 		#logo-text{
 			width: 15vw;
