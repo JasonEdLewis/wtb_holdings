@@ -20,10 +20,12 @@
  .wtb-title{
 	 font-family: 'Quattrocento';
 	 font-style: italic;
-	 font-size: 3vw;
+	 /* font-size: 3vw; */
+	 padding:-10px;
 	 font-weight: 500;
 	 letter-spacing: .2vw; 
-	 color: rgb(154, 154, 154) 
+	 color: rgb(154, 154, 154);
+	 /* border:solid 1px red; */
  }
  .fas{
 	color: rgb(250, 232, 211);
@@ -198,7 +200,7 @@ input, select, textarea {
 		font-size: 16pt;
 	}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (m-width: 1680px) {
 
 			html {
 				font-size: 12pt;
@@ -214,16 +216,16 @@ input, select, textarea {
 
 		}
 		@media screen and (min-width: 991px) {
-			.logo {
-				margin-right: -8.5vw ;
+			.logo, #logo {
+				margin-left: 5.5vw ;
 				margin-bottom: 3vh;
-				border: 1px solid red;
+				/* border: 1px solid red; */
 
 				}
 
 		}
 /* This is for small screens */
-		@media screen and (max-width: 736px) {
+		@media screen and (min-width: 736px) {
 
 			html {
 				font-size: 11pt;
@@ -1428,16 +1430,16 @@ input, select, textarea {
 			border-radius: 100%;
 		} */
 		.logo #logo{
-			width: 20vw;
-			margin-bottom: -8vh;
-			margin-left: -1.5vw;
+			width: 10vw;
+			margin-bottom: -2.5vh;
+			margin-left: 7vw;
 			/* border: 1px red solid; */
 
 		}
 		#logo-text{
-			width: 15vw;
-			margin-top: -10vh;
-			padding:-50px;
+			width: 40vw;
+			margin-top: -2.5vh;
+			/* padding:-50px; */
 			/* border: 5px red solid; */
 		}
 			#header .logo .icon:before {
