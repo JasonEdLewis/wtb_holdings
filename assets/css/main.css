@@ -20,10 +20,11 @@
  .wtb-title{
 	 font-family: 'Quattrocento';
 	 font-style: italic;
-	 font-size: 3vw;
+	 margin: -5px 0px;
 	 font-weight: 500;
 	 letter-spacing: .2vw; 
-	 color: rgb(249, 228, 205);
+	 color: rgb(154, 154, 154);
+	 /* border:solid 1px red; */
  }
  .fas{
 	color: rgb(250, 232, 211);
@@ -159,6 +160,13 @@ input, select, textarea {
 		html, body {
 			min-width: 320px;
 		}
+		.logo #logo{
+			width: 15vw;
+			margin-left: -.5vw;
+			padding-bottom: 2vh;
+			/* border: 1px solid red; */
+			}
+		
 
 	}
 
@@ -191,19 +199,51 @@ input, select, textarea {
 		font-size: 16pt;
 	}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (m-width: 1680px) {
 
 			html {
 				font-size: 12pt;
 			}
+			.logo {
+				margin-right: -8.5vw ;
+				margin-bottom: 1vh;
+				/* border: 1px solid red; */
+
+				}
+				
+
 
 		}
+		@media screen and (min-width: 991px) {
+			.logo, #logo {
+				margin-left: 5.5vw ;
+				margin-bottom: 3vh;
+				/* border: 1px solid red; */
 
-		@media screen and (max-width: 736px) {
+				}
+
+		}
+/* This is for small screens */
+		@media screen and (min-width: 736px) {
 
 			html {
 				font-size: 11pt;
 			}
+			.logo {
+				margin-right: 0vw;
+				margin-bottom: 1vh;
+				/* border: 1px solid red; */
+				}
+				.looking-to-sell-button {
+					margin-right: 75vw;
+					padding:.75vw;
+					font-size: small;
+					border-radius: .5vw;
+					text-decoration: none;
+					color: rgb(249, 229, 229);
+					border: #faf7f7ac solid .1vw;
+				
+				}
 
 		}
 
@@ -212,7 +252,13 @@ input, select, textarea {
 			html {
 				font-size: 10pt;
 			}
-
+			.logo {
+				width: 15vw;
+				margin-left: -.5vw;
+				padding-bottom: 2vh;
+				/* border: 1px solid red; */
+				}
+			
 		}
 
 	body, input, select, textarea {
@@ -301,9 +347,113 @@ input, select, textarea {
 	h6 {
 		font-size: 0.6rem;
 	}
+	@media screen and (min-width:440px){
+		.logo {
+			width: 20vw;
+			margin-left: -7.5vw;
+			margin-bottom: 1vh;
+			/* border: 1px solid red; */
+			}
+			.looking-to-sell-button {
+				margin-right: 75vw;
+				padding:.75vw;
+				border-radius: .5vw;
+				text-decoration: none;
+				font-size:1.5vw ;
+				font-style: italic;
+				font-family: 'Quattrocento';
+				color: rgb(249, 240, 229);
+				border: #faf7f7ac solid .1vw;
+			
+			}
+			.taking-the-opportuity{
+				font-style: italic;
+				font-size:1.25vw;
+				font-family: 'Quattrocento';
+				/* color:red */
+			}
+	}
+	@media screen and (max-width:599px){
+
+		
+			#logo{
+				/* border: 1px solid red;	 */
+				padding-bottom: 1vh;
+			}
+			.taking-the-opportuity{
+				/* font-style: italic; */
+				font-size:1.75vw;
+				font-family: 'Quattrocento';
+				/* color:red */
+			}
+			#header nav ul li a {
+				font-size: .1vw;
+		
+			}
+			#header .content {
+				border-style: solid;
+				border-color: #ffffff;
+				border-top-width: 1px;
+				border-bottom-width: 1px;
+				max-width: 100%;
+				
+			}
+			.contact-info{
+				float:left;
+				margin-top: 10%; 
+			}
+			.looking-to-sell-button {
+				width:25vw;
+				margin-left: 5vw;
+				margin-bottom: 1.5vh;
+				padding:1.75vw;
+				border-radius: .5vw;
+				text-decoration: none;
+				color: rgb(249, 240, 229);
+				font-size: 2.75vw;
+				border: #faf7f7ac solid .1vw;
+			
+			}
+			#sell-verbiage{
+				font-size: 3vw;
+				font-family: 'Quattrocento';
+				letter-spacing: .3vw;
+			}
+			#win-win {
+				margin-left:45%; 
+				font-family: 'Quattrocento'; 
+				font-size: 2vw; 
+				color:rgb(204, 202, 202)
+			 }
+			
+	 }
+	 #hand-shake {
+		width:75%;
+		margin-left: 12.5%;
+		/* border: white 1px solid; */
+		
+	 }
+	 #win-win {
+		margin-left:25%; 
+		font-family: 'Quattrocento'; 
+		font-size: 3vw; ;
+	 }
+	 
+	 @media screen and (max-width:725px){
+		.logo {
+			width: 20vw;
+			margin-left: -7.5vw;
+			margin-bottom: -4.25vh;
+			/* border: 1px solid red; */
+			}
+	 }
 
 	@media screen and (max-width: 736px) {
-
+		#win-win {
+			margin-left:35%; 
+			font-family: 'Quattrocento'; 
+			font-size: 4vw; ;
+		 }
 		h1 {
 			font-size: 1.75rem;
 			line-height: 1.4;
@@ -321,6 +471,7 @@ input, select, textarea {
 		position: relative;
 		top: 0.5rem;
 	}
+	
 
 	sup {
 		font-size: 0.8rem;
@@ -425,7 +576,7 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 480px) {
-
+			
 			form > .fields {
 				width: calc(100% + 3rem);
 				margin: -1.5rem 0 2rem -1.5rem;
@@ -1346,6 +1497,7 @@ input, select, textarea {
 			position: relative;
 			margin-top: 3.5rem;
 		}
+				/* The vertical lines */
 
 			#header > *:before {
 				content: '';
@@ -1355,7 +1507,8 @@ input, select, textarea {
 				left: calc(50% - 1px);
 				width: 1px;
 				height: calc(3.5rem + 1px);
-				background: #ffffff;
+				background:#ffffff;
+				
 			}
 
 		#header > :first-child {
@@ -1365,19 +1518,32 @@ input, select, textarea {
 			#header > :first-child:before {
 				display: none;
 			}
+/* Comment out to put the logo without the circle */
 
-		#header .logo {
+		/* #header .logo {
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
-		}
+		} */
+		.logo #logo{
+			width: 10vw;
+			margin-bottom: -2.5vh;
+			margin-left: 7vw;
+			/* border: 1px red solid; */
 
+		}
+		#logo-text{
+			width: 40vw;
+			margin-top: -2.5vh;
+			/* padding:-50px; */
+			/* border: 5px red solid; */
+		}
 			#header .logo .icon:before {
 				font-size: 2rem;
 			}
-
+			/* Horizontal lines  */
 		#header .content {
 			border-style: solid;
 			border-color: #ffffff;
@@ -1411,6 +1577,8 @@ input, select, textarea {
 				line-height: 2;
 			}
 
+/* Framing for the around the nav items  */
+
 		#header nav ul {
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -1423,6 +1591,8 @@ input, select, textarea {
 			border-radius: 4px;
 		}
 
+/* Framing for the middle of the nav items  */
+
 			#header nav ul li {
 				padding-left: 0;
 				border-left: solid 1px #ffffff;
@@ -1434,7 +1604,7 @@ input, select, textarea {
 
 				#header nav ul li a {
 					display: block;
-					min-width: 7.5rem;
+					max-width: 7.5rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
 					padding: 0 1.25rem 0 1.45rem;
