@@ -20,8 +20,7 @@
  .wtb-title{
 	 font-family: 'Quattrocento';
 	 font-style: italic;
-	 /* font-size: 3vw; */
-	 padding:-10px;
+	 margin: -5px 0px;
 	 font-weight: 500;
 	 letter-spacing: .2vw; 
 	 color: rgb(154, 154, 154);
@@ -165,7 +164,7 @@ input, select, textarea {
 			width: 15vw;
 			margin-left: -.5vw;
 			padding-bottom: 2vh;
-			border: 1px solid red;
+			/* border: 1px solid red; */
 			}
 		
 
@@ -208,7 +207,7 @@ input, select, textarea {
 			.logo {
 				margin-right: -8.5vw ;
 				margin-bottom: 1vh;
-				/* border: 1px solid red; */
+				border: 1px solid red;
 
 				}
 				
@@ -348,6 +347,70 @@ input, select, textarea {
 	h6 {
 		font-size: 0.6rem;
 	}
+	@media screen and (min-width:440px){
+		.logo {
+			width: 20vw;
+			margin-left: -7.5vw;
+			margin-bottom: 1vh;
+			/* border: 1px solid red; */
+			}
+			.looking-to-sell-button {
+				margin-right: 75vw;
+				padding:.75vw;
+				border-radius: .5vw;
+				text-decoration: none;
+				font-size:1.5vw ;
+				font-style: italic;
+				font-family: 'Quattrocento';
+				color: rgb(249, 240, 229);
+				border: #faf7f7ac solid .1vw;
+			
+			}
+			.taking-the-opportuity{
+				font-style: italic;
+				font-size:1.25vw;
+				font-family: 'Quattrocento';
+				/* color:red */
+			}
+	}
+	@media screen and (max-width:599px){
+
+		
+			#logo{
+				/* border: 1px solid red;	 */
+				padding-bottom: 1vh;
+			}
+			.taking-the-opportuity{
+				/* font-style: italic; */
+				font-size:1.75vw;
+				font-family: 'Quattrocento';
+				/* color:red */
+			}
+			#header nav ul li a {
+				font-size: .1vw;
+		
+			}
+			#header .content {
+				border-style: solid;
+				border-color: #ffffff;
+				border-top-width: 1px;
+				border-bottom-width: 1px;
+				max-width: 100%;
+				
+			}
+			.contact-info{
+				float:left;
+				margin-top: 10%; 
+			}
+	 }
+	 @media screen and (max-width:725px){
+		.logo {
+			width: 20vw;
+			margin-left: -7.5vw;
+			margin-bottom: -4.25vh;
+			/* border: 1px solid red; */
+			}
+	 }
 
 	@media screen and (max-width: 736px) {
 
@@ -368,12 +431,7 @@ input, select, textarea {
 		position: relative;
 		top: 0.5rem;
 	}
-	.logo {
-		width: 20vw;
-		margin-left: -7.5vw;
-		margin-bottom: vh;
-		/* border: 1px solid red; */
-		}
+	
 
 	sup {
 		font-size: 0.8rem;
@@ -1506,7 +1564,7 @@ input, select, textarea {
 
 				#header nav ul li a {
 					display: block;
-					min-width: 7.5rem;
+					max-width: 7.5rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
 					padding: 0 1.25rem 0 1.45rem;
