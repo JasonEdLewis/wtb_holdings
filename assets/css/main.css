@@ -207,7 +207,7 @@ input, select, textarea {
 			.logo {
 				margin-right: -8.5vw ;
 				margin-bottom: 1vh;
-				border: 1px solid red;
+				/* border: 1px solid red; */
 
 				}
 				
@@ -256,7 +256,7 @@ input, select, textarea {
 				width: 15vw;
 				margin-left: -.5vw;
 				padding-bottom: 2vh;
-				border: 1px solid red;
+				/* border: 1px solid red; */
 				}
 			
 		}
@@ -402,7 +402,43 @@ input, select, textarea {
 				float:left;
 				margin-top: 10%; 
 			}
+			.looking-to-sell-button {
+				width:25vw;
+				margin-left: 5vw;
+				margin-bottom: 1.5vh;
+				padding:1.75vw;
+				border-radius: .5vw;
+				text-decoration: none;
+				color: rgb(249, 240, 229);
+				font-size: 2.75vw;
+				border: #faf7f7ac solid .1vw;
+			
+			}
+			#sell-verbiage{
+				font-size: 3vw;
+				font-family: 'Quattrocento';
+				letter-spacing: .3vw;
+			}
+			#win-win {
+				margin-left:45%; 
+				font-family: 'Quattrocento'; 
+				font-size: 2vw; 
+				color:rgb(204, 202, 202)
+			 }
+			
 	 }
+	 #hand-shake {
+		width:75%;
+		margin-left: 12.5%;
+		/* border: white 1px solid; */
+		
+	 }
+	 #win-win {
+		margin-left:25%; 
+		font-family: 'Quattrocento'; 
+		font-size: 3vw; ;
+	 }
+	 
 	 @media screen and (max-width:725px){
 		.logo {
 			width: 20vw;
@@ -413,7 +449,11 @@ input, select, textarea {
 	 }
 
 	@media screen and (max-width: 736px) {
-
+		#win-win {
+			margin-left:35%; 
+			font-family: 'Quattrocento'; 
+			font-size: 4vw; ;
+		 }
 		h1 {
 			font-size: 1.75rem;
 			line-height: 1.4;
