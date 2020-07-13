@@ -172,6 +172,13 @@ input, select, textarea {
 		margin-top: -1.5em;
 		margin-left: .5em;
 		}
+	.looking-to-sell-button a{
+		font-size: 1.5em;
+		margin-left:1.5em;
+		text-decoration: none;
+		color:rgb(79, 214, 255)
+	}
+		
 
 	 }
 	@media screen and (max-width: 376px){
