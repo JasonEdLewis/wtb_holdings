@@ -148,9 +148,7 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-.logo img{
-	width:10em;
-}
+
 
 /* Basic */
 
@@ -167,6 +165,15 @@ input, select, textarea {
 		
 
 	}
+	@media screen 
+    and (max-width : 414px) {
+		.logo img{
+		width:5em;
+		margin-top: -1.75em;
+		margin-left: .5em;
+		}
+
+	 }
 	@media screen and (max-width: 376px){
 			.logo img{
 				width:5em;
