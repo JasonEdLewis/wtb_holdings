@@ -170,7 +170,7 @@ input, select, textarea {
     and (max-width : 414px) {
 		.logo img{
 		width:5em;
-		margin-top: -1.5em;
+		margin-top: -.5em;
 		margin-left: .5em;
 		}
 	
@@ -1447,8 +1447,16 @@ input, select, textarea {
 			#wrapper {
 				padding: 3rem 2rem;
 			}
+			
 
 		}
+		@media screen and (min-width: 1279px){
+		#header .logo img{
+			width: 10rem;
+			margin-left: 6.5em;
+			margin-bottom: -1em;
+		}
+	}
 
 		@media screen and (max-width: 736px) {
 
@@ -1525,11 +1533,7 @@ input, select, textarea {
 			}
 /* Comment out to put the logo without the circle */
 
-		#header .logo img{
-			width: 10rem;
-			margin-left: 6.5em;
-			margin-bottom: -1em;
-		}
+		
 		
 		#logo-text{
 			width: 40vw;
