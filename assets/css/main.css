@@ -6,13 +6,14 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
 .looking-to-sell-button {
 	margin-right: 75vw;
 	padding:.75vw;
-	border-radius: .5vw;
+	/* border-radius: .5vw; */
 	text-decoration: none;
 	color: rgb(249, 240, 229);
-	border: #faf7f7ac solid .1vw;
+	/* border: #faf7f7ac solid .1vw; */
 
 }
 
@@ -149,6 +150,7 @@ input, select, textarea {
 	appearance: none;
 }
 
+
 /* Basic */
 
 	@-ms-viewport {
@@ -160,16 +162,40 @@ input, select, textarea {
 		html, body {
 			min-width: 320px;
 		}
-		.logo #logo{
-			width: 15vw;
-			margin-left: -.5vw;
-			padding-bottom: 2vh;
-			/* border: 1px solid red; */
-			}
+		
 		
 
 	}
+	@media screen 
+    and (max-width : 414px) {
+		.logo img{
+		width:5em;
+		margin-top: -1em;
+		margin-left: .5em;
+		}
+	
+	.looking-to-sell-button a{
+		font-size: 1em;
+		margin-left:1.5em;
+		text-decoration: none;
+		color:rgb(181, 235, 251);
+		padding: 0em;
+		margin-left:6.5em;
+		/* margin-top: 10em; */
+	}
+	.wtb-title img{
+		width:75em;
+	}
+		
 
+	 }
+	@media screen and (max-width: 376px){
+			.logo img{
+				width:5em;
+				margin-top: -1.5em;
+				margin-left: .5em;
+			}
+	}
 	html {
 		box-sizing: border-box;
 	}
@@ -238,10 +264,10 @@ input, select, textarea {
 					margin-right: 75vw;
 					padding:.75vw;
 					font-size: small;
-					border-radius: .5vw;
+					/* border-radius: .5vw; */
 					text-decoration: none;
 					color: rgb(249, 229, 229);
-					border: #faf7f7ac solid .1vw;
+					/* border: #faf7f7ac solid .1vw; */
 				
 				}
 
@@ -354,18 +380,7 @@ input, select, textarea {
 			margin-bottom: 1vh;
 			/* border: 1px solid red; */
 			}
-			.looking-to-sell-button {
-				margin-right: 75vw;
-				padding:.75vw;
-				border-radius: .5vw;
-				text-decoration: none;
-				font-size:1.5vw ;
-				font-style: italic;
-				font-family: 'Quattrocento';
-				color: rgb(249, 240, 229);
-				border: #faf7f7ac solid .1vw;
 			
-			}
 			.taking-the-opportuity{
 				font-style: italic;
 				font-size:1.25vw;
@@ -402,18 +417,7 @@ input, select, textarea {
 				float:left;
 				margin-top: 10%; 
 			}
-			.looking-to-sell-button {
-				width:25vw;
-				margin-left: 5vw;
-				margin-bottom: 1.5vh;
-				padding:1.75vw;
-				border-radius: .5vw;
-				text-decoration: none;
-				color: rgb(249, 240, 229);
-				font-size: 2.75vw;
-				border: #faf7f7ac solid .1vw;
 			
-			}
 			#sell-verbiage{
 				font-size: 3vw;
 				font-family: 'Quattrocento';
@@ -1443,8 +1447,16 @@ input, select, textarea {
 			#wrapper {
 				padding: 3rem 2rem;
 			}
+			
 
 		}
+		@media screen and (min-width: 1279px){
+		#header .logo img{
+			width: 10rem;
+			margin-left: 6.5em;
+			margin-bottom: -1em;
+		}
+	}
 
 		@media screen and (max-width: 736px) {
 
@@ -1459,6 +1471,7 @@ input, select, textarea {
 			#wrapper {
 				padding: 1rem;
 			}
+			
 
 		}
 
@@ -1520,20 +1533,8 @@ input, select, textarea {
 			}
 /* Comment out to put the logo without the circle */
 
-		/* #header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
-			border: solid 1px #ffffff;
-			border-radius: 100%;
-		} */
-		.logo #logo{
-			width: 10vw;
-			margin-bottom: -2.5vh;
-			margin-left: 7vw;
-			/* border: 1px red solid; */
-
-		}
+		
+		
 		#logo-text{
 			width: 40vw;
 			margin-top: -2.5vh;
@@ -1739,6 +1740,7 @@ input, select, textarea {
 							line-height: 3rem;
 							min-width: 0;
 							width: 100%;
+							margin: auto;
 						}
 
 				#header nav.use-middle:after {
