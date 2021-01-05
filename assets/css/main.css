@@ -2013,3 +2013,15 @@ body.is-article-visible #footer {
 body.is-preload #footer {
   opacity: 0;
 }
+.WTB {
+  /* justify-items: center; */
+  height: 100px;
+  /* background-color: lightcoral; */
+}
+.holdings {
+  display: flex;
+  margin-left: 20%;
+  margin-top: -15%;
+  width: 75%;
+  /* background-color: rgb(209, 235, 243); */
+}
